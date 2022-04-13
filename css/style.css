@@ -1,0 +1,75 @@
+/* Css variables */
+:root{
+    --primary-color: skyblue;
+    --nav-color: #262626;
+    --text-color:white;
+}
+
+/* first background image styling */
+#backgroundimg{
+    background-image : url(/images/bgImage.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* end of first background image */
+.bg-text{
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    margin: 0 auto;
+}
+.bg-text h1{
+    font-size: 5rem;
+    text-shadow: 5px 5px 20px #000;
+}
+/* second background image styling */
+#backgroundimg2{
+    background-image: url(/images/engteam.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* third background image styling */
+#backgroundimg3{
+    background-image: url(/images/engteam2.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn1{
+    color: white;
+    background-color: red;
+    width: 40px;
+}
+.btn1{
+    background-color: transparent;
+    padding: 10px 25px;
+    text-align: center;
+    border: 3px solid #fff;
+    text-decoration: none;
+}
+.bg-text h5{
+    margin-bottom: 30px;
+}
+.bg-text .btn1:hover{
+    background: darkblue;
+    color: #fff;
+    border-radius: 10px;
+    transition: 1s;
+}
+.col-lg-4{
+    padding: 0!important;
+    margin: 0!important;
+}
+@media screen and (max-width:768px){
+    .bg-text h1{
+        font-size:1.5rem;
+        
+    }
+}
+    
